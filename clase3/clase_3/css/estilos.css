@@ -1,0 +1,43 @@
+/* Selectores: etiqueta, class y ID.
+    Etiqueta: usando el nombre de la etiqueta HTML. 
+
+    Clase: class, .nombre. Se puede repetir varias veces en un mismo documento.
+    
+    ID: Identificador único. Nunca se repite en un mismo documento, pero lo podemos utilizar en varios documentos dentro de nuestro sitio web.
+*/
+
+:root {
+    --negro: #07020D;
+    --blanco: #FFFFFF;
+    --fondo: #F1E9DB;
+    --overlay: #5DB7DE;
+    --marron1: #A39B8B;
+    --marron2: #716A5C;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: var(--fondo);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado y barra de navegación */
+header {
+    background-color: var(--negro);
+}
+
+/* Elementos de bloque: Agregar saltos de línea, antes y después. Ocupan TODO el ancho de su contenedor. */
+
+header ul li {
+    display: inline-block; /* Línea-bloque: no hay saltos de línea */
+    padding: 0.5em; /* rem y em, unidades son relativas al font-size. */
+}
+
+header ul {
+    list-style: none;
+}

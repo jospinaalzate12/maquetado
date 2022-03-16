@@ -1,0 +1,73 @@
+body{
+ background-color: var(--fondo);
+
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family:Arnopro ;
+    src: url(../fonts/Arno/ArnoPro-Regular.otf);
+    font-weight:normal ;/*valor de linea*/
+    font-style:normal ;/*valor de linea*/
+}
+@font-face {
+    font-family:Arnopro ;
+    src: url(../fonts/Arno/ArnoPro-Bold.otf);
+    font-weight:bold ;/*valor de linea*/
+    font-style:normal ;/*valor de linea*/
+}
+:root{/*variables*/
+    --negro: #07020D;
+    --blanco: #FFFFFF;
+    --fondo: #F1E9DB;
+    --overlay: #5DB7DE;
+    --marron1: #A39B8B;
+    --marron2: #716A5C;
+}
+img{
+    max-width: 100%;
+}
+section{
+    
+    background-color: red;
+    max-width: 100%;
+    min-height: 100vh;
+}
+#bienvenida{
+    background-image: url(../img/fondo_landing.jpg);
+    background-size:cover;/*tamaño del fondo cover cubre todo el area*/
+    background-attachment: fixed;/*la imagen queda fija cuando se sube o se baja*/
+    background-repeat: no-repeat;
+    background-position: top;/*centra siempre la imgen*/
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+#bienvenida img{
+    width: 80%;
+    max-width: 900px;
+}
+#libro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    font-family: Arnopro;
+    font-weight:normal ;
+    font-style: normal;
+}
+#libro h1{
+    margin: 0;
+    font-size:4em ;
+    font-weight: normal;
+    font-style: normal;
+}
+#libro article, #libro img{
+    width: 45%; 
+    max-width: 500px;
+    margin: 30px;
+}
+#libro img{
+    max-width:300px ;
+}
