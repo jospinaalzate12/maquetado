@@ -116,6 +116,9 @@ display: flex;
     align-items: center;
 
 }
+.lab{
+    color: var(--blanco);
+}
 #bienvenida h1{
     color: var(--overlay);
     font-size: 6vmin;
@@ -137,9 +140,13 @@ a.ar:link, a.ar:visited{
 border-radius: 200px;
     border: #177dd1 solid 2px;
     background-color:var(--blanco);
-    padding: 10px;
-    margin: 0;
+    max-width: 100%;
+    width: 70px;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;  
 }
+
 a.ar:hover, a.ar:active{
     text-decoration:underline;
     
@@ -183,14 +190,7 @@ footer{
     padding: 0;
     margin: 0;
 }
-#presenta nav{
-    max-width: 100%;
-    width: 70px;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 20px;
-    border: #02060d solid 2px;
-}
+
 #libro img{
     
     max-width: 100%;
